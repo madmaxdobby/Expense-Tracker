@@ -350,13 +350,5 @@ This is a portfolio project. For suggestions or improvements, please feel free t
 
 > *"This project showcases my ability to build complete, production-ready applications. I implemented real-time data synchronization with Firebase, created reusable React components, and solved complex problems like category deduplication across multiple features. The app demonstrates understanding of modern web development practices including responsive design, accessibility, and performance optimization."*
 
----
-
-## 📧 Contact
-
-**Sarthak Mohite**  
-Portfolio Project | February 2026
-
----
 
 **Ready to see it in action?** Clone the repo and run `npm run dev`! 🎉

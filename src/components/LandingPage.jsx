@@ -126,7 +126,7 @@ const LandingPage = ({ onJoin }) => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.05 }}
-                whileHover={{ y: -8, boxShadow: "0 20px 40px rgba(37, 99, 235, 0.2)" }}
+                whileHover={{ y: -8, boxShadow: "0 20px 40px rgba(174, 81, 51, 0.2)" }}
                 className="bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-8 rounded-3xl text-center hover:border-blue-600 dark:hover:border-blue-500 transition-all duration-75 cursor-pointer"
               >
                 <motion.div 
@@ -147,89 +147,6 @@ const LandingPage = ({ onJoin }) => {
       {/* Engineering Spotlight Section */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="space-y-16">
-          {/* Developer Spotlight */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 border border-slate-200 dark:border-slate-700 rounded-3xl p-8 md:p-12 backdrop-blur-sm"
-          >
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-              {/* Profile Image */}
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                className="md:col-span-1 flex justify-center"
-              >
-                <div className="relative w-40 h-40 md:w-48 md:h-48">
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-2xl opacity-20"></div>
-                  <div className="relative w-full h-full bg-gradient-to-br from-blue-100 dark:from-slate-700 to-blue-200 dark:to-slate-800 rounded-2xl flex items-center justify-center border-2 border-blue-600 dark:border-blue-500">
-                    <span className="text-6xl">👨‍💻</span>
-                  </div>
-                </div>
-              </motion.div>
-
-              {/* Developer Info */}
-              <div className="md:col-span-2 text-center md:text-left">
-                <motion.h2
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.1 }}
-                  className="text-4xl md:text-5xl font-bold mb-2 text-slate-900 dark:text-white"
-                >
-                  Sarthak Mohite
-                </motion.h2>
-                <motion.p
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  className="text-lg md:text-xl text-blue-600 dark:text-blue-400 font-semibold mb-4"
-                >
-                  Computer Engineering Student
-                </motion.p>
-                <motion.p
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  className="text-base md:text-lg text-slate-600 dark:text-slate-400 mb-6"
-                >
-                  D.Y. Patil Institute of Technology, Pune
-                </motion.p>
-                <motion.p
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                  className="text-slate-600 dark:text-slate-300 mb-8 leading-relaxed"
-                >
-                  Passionate about building intuitive financial solutions. Full-stack developer focused on creating seamless user experiences with modern web technologies.
-                </motion.p>
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
-                >
-                  <a
-                    href="https://www.linkedin.com/in/sarthak-mohite-508408377/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-full flex items-center justify-center gap-2 transition-all transform hover:scale-105"
-                  >
-                    <Linkedin size={20} />
-                    Connect on LinkedIn
-                  </a>
-                  <a
-                    href="https://github.com/Sarthzk"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-8 py-3 bg-slate-800 dark:bg-slate-700 hover:bg-slate-900 dark:hover:bg-slate-600 text-white font-semibold rounded-full flex items-center justify-center gap-2 transition-all transform hover:scale-105"
-                  >
-                    <Github size={20} />
-                    View Portfolio
-                  </a>
-                </motion.div>
-              </div>
-            </div>
-          </motion.div>
 
           {/* Tech Stack Section */}
           <motion.div
@@ -318,7 +235,7 @@ const LandingPage = ({ onJoin }) => {
                   ].map((tech, idx) => (
                     <motion.div 
                       key={idx}
-                      whileHover={{ y: -4, boxShadow: "0 10px 25px rgba(37, 99, 235, 0.15)" }}
+                      whileHover={{ y: -4, boxShadow: "0 10px 25px rgba(174, 81, 51, 0.15)" }}
                       transition={{ duration: 0.2, type: 'spring', stiffness: 300 }}
                       className="bg-white dark:bg-slate-800 rounded-lg p-3 border border-slate-200 dark:border-slate-700 cursor-pointer transition-all duration-75"
                     >
@@ -332,71 +249,6 @@ const LandingPage = ({ onJoin }) => {
           </motion.div>
         </div>
       </section>
-
-      {/* Professional Portfolio Footer */}
-      <footer className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-950 border-t border-slate-200 dark:border-slate-800 py-16 mt-20">
-        <div className="max-w-7xl mx-auto px-4">
-          {/* Contact CTA Section */}
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 mb-8 text-center">
-            <h3 className="text-2xl font-bold text-white mb-3">Interested in My Work?</h3>
-            <p className="text-blue-100 mb-6">Let's connect! I'm always open to opportunities and collaborations.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="mailto:mohitesarthak74@gmail.com"
-                className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-full hover:bg-blue-50 transition-all transform hover:scale-105"
-              >
-                <span className="flex items-center justify-center gap-2">
-                  <Mail size={20} />
-                  Contact Me
-                </span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/sarthak-mohite-508408377/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-full transition-all transform hover:scale-105"
-              >
-                <span className="flex items-center justify-center gap-2">
-                  <Linkedin size={20} />
-                  Connect on LinkedIn
-                </span>
-              </a>
-            </div>
-          </div>
-
-          {/* Bottom Section */}
-          <div className="border-t border-slate-200 dark:border-slate-800 pt-8">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
-              {/* Left - Brand */}
-              <div className="flex items-center gap-3">
-                <div className="bg-blue-600 p-2 rounded-lg">
-                  <Wallet size={24} className="text-white" />
-                </div>
-                <div>
-                  <p className="font-bold text-slate-900 dark:text-white">Financy</p>
-                  <p className="text-xs text-slate-600 dark:text-slate-400">Financial Management App</p>
-                </div>
-              </div>
-
-              {/* Right - Copyright & Social */}
-              <div className="text-center sm:text-right">
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-3">&copy; 2026 Sarthak Mohite. All Rights Reserved.</p>
-                <div className="flex gap-4 justify-center sm:justify-end">
-                  <a href="mailto:mohitesarthak74@gmail.com" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition">
-                    <Mail size={20} />
-                  </a>
-                  <a href="https://www.linkedin.com/in/sarthak-mohite-508408377/" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition">
-                    <Linkedin size={20} />
-                  </a>
-                  <a href="https://github.com/Sarthzk" target="_blank" rel="noopener noreferrer" className="text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition">
-                    <Github size={20} />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };

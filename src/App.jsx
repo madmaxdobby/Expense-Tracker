@@ -195,11 +195,7 @@ if (!user && showAuth) {
             <ProfileView entries={entries} />
           </div>
 
-          <footer className="mt-12 py-8 border-t border-border/50 text-center">
-            <p className="text-slate-600 text-sm font-medium tracking-wide">
-              © 2026 Sarthak Mohite. All Rights Reserved.
-            </p>
-          </footer>
+          
         </main>
       </div>
     </div>

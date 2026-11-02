@@ -21,8 +21,8 @@
     -moz-osx-font-smoothing: grayscale;
     
     /* Light mode (default) */
-    background: linear-gradient(135deg, #f5f7fa 0%, #f0f4f8 100%);
-    color: #1f2937;
+    background: linear-gradient(135deg, #fffcf7 0%, #f4ede3 100%);
+    color: #342820;
     
     /* Dark mode */
     @apply dark:bg-slate-950 dark:text-white;
@@ -36,9 +36,9 @@
 
   /* Dark mode background with gradient */
   html.dark body {
-    background: radial-gradient(circle at 0% 0%, rgba(11, 80, 218, 0.08) 0%, transparent 40%),
-                radial-gradient(circle at 100% 100%, rgba(212, 175, 55, 0.03) 0%, transparent 40%),
-                #0f172a;
+    background: radial-gradient(circle at 0% 0%, rgba(174, 81, 51, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 100% 100%, rgba(214, 167, 93, 0.06) 0%, transparent 40%),
+                #17110d;
   }
 }
 

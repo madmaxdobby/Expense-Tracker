@@ -68,13 +68,13 @@ export default function MonthlyTrends({ entries }) {
         {
           label: 'Net (Income - Expenses)',
           data: netData,
-          borderColor: '#0B50DA',
-          backgroundColor: 'rgba(11, 80, 218, 0.05)',
+          borderColor: '#AE5133',
+          backgroundColor: 'rgba(174, 81, 51, 0.08)',
           tension: 0.4,
           fill: true,
           borderWidth: 3,
-          pointBackgroundColor: '#0B50DA',
-          pointBorderColor: '#ffffff',
+          pointBackgroundColor: '#AE5133',
+          pointBorderColor: '#FFFCF7',
           pointBorderWidth: 2,
           pointRadius: 6,
           pointHoverRadius: 8
@@ -106,7 +106,7 @@ export default function MonthlyTrends({ entries }) {
       legend: {
         position: 'top',
         labels: {
-          color: '#6B7280',
+          color: '#77685B',
           font: { size: 12, weight: 500 },
           padding: 16,
           usePointStyle: true
@@ -116,12 +116,12 @@ export default function MonthlyTrends({ entries }) {
     scales: {
       y: {
         beginAtZero: true,
-        grid: { color: 'rgba(107, 114, 128, 0.1)' },
-        ticks: { color: '#6B7280' }
+        grid: { color: 'rgba(119, 104, 91, 0.14)' },
+        ticks: { color: '#77685B' }
       },
       x: {
         grid: { display: false },
-        ticks: { color: '#6B7280' }
+        ticks: { color: '#77685B' }
       }
     }
   };

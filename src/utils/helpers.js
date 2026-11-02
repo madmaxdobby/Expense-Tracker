@@ -4,8 +4,8 @@
 
 export const RECENT_ENTRIES_LIMIT = 5;
 export const FINTECH_PALETTE = [
-  '#0B50DA', '#D4AF37', '#10B981', '#EF4444', 
-  '#8B5CF6', '#F59E0B', '#06B6D4'
+  '#AE5133', '#D6A75D', '#8F6F4E', '#C17F5C',
+  '#6F6257', '#E0B37C', '#9A7765'
 ];
 
 export function sanitizeInput(input) {

@@ -102,7 +102,7 @@ export default function CategoryAnalytics({ entries }) {
       legend: {
         position: 'bottom',
         labels: {
-          color: '#6B7280',
+          color: '#77685B',
           font: { size: 12, weight: 500 },
           padding: 16,
           usePointStyle: true
@@ -116,7 +116,7 @@ export default function CategoryAnalytics({ entries }) {
     scales: {
       y: {
         beginAtZero: true,
-        grid: { color: 'rgba(107, 114, 128, 0.1)' }
+        grid: { color: 'rgba(119, 104, 91, 0.14)' }
       },
       x: {
         grid: { display: false }

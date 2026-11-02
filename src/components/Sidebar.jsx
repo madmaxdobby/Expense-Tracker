@@ -71,7 +71,7 @@ export default function Sidebar({ currentPage, onPageChange }) {
         >
           <Menu size={24} className="text-gray-900 dark:text-white" />
         </button>
-        <h1 className="text-xl font-bold text-gray-900 dark:text-white">Financy</h1>
+        <h1 className="text-xl font-bold text-gray-900 dark:text-white">Expense Tracker</h1>
         <div className="w-10" /> {/* Spacer for alignment */}
       </div>
 

@@ -64,7 +64,7 @@ export function exportToCSV(entries) {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
   link.href = url;
-  link.download = `financy-export-${new Date().toISOString().split('T')[0]}.csv`;
+  link.download = `expense-tracker-export-${new Date().toISOString().split('T')[0]}.csv`;
   link.click();
   
   return { success: true, message: "Export successful" };

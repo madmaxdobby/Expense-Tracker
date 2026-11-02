@@ -97,7 +97,7 @@ const LandingPage = ({ onJoin }) => {
             Your Financial Ally
           </motion.h1>
           <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 mb-12 max-w-3xl mx-auto">
-            Financy helps you track expenses, providing you insights on spending habits effortlessly.
+            Expense Tracker helps you track expenses and understand your spending habits effortlessly.
           </p>
           <div className="flex justify-center gap-4">
             <button 

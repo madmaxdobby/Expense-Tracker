@@ -126,7 +126,7 @@ export default function AuthOverlay({ onError, onSuccess, onBack }) {
             <div className="flex justify-center mb-6">
               <Logo size="xl" showText={false} />
             </div>
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Financy</h1>
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Expense Tracker</h1>
             <p className="text-gray-600 dark:text-slate-400 mt-2 font-medium">
               Master your money, one entry at a time.
             </p>

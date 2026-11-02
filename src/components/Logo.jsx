@@ -26,14 +26,14 @@ export default function Logo({ size = 'medium', showText = true, onClick = null 
     <button
       onClick={onClick}
       className={`flex items-center gap-2 hover:opacity-80 transition-opacity focus:outline-none ${onClick ? 'cursor-pointer' : 'cursor-default'}`}
-      aria-label="Financy Logo"
+      aria-label="Expense Tracker logo"
     >
       <div className={`${sizeClasses[size]} bg-gradient-to-br from-blue-600 to-blue-700 p-1.5 rounded-lg flex items-center justify-center flex-shrink-0`}>
         <Wallet size={iconSizes[size]} className="text-white" />
       </div>
       {showText && (
         <span className={`font-bold tracking-tight text-gray-900 dark:text-white whitespace-nowrap ${textSizes[size]}`}>
-          Financy
+          Expense Tracker
         </span>
       )}
     </button>

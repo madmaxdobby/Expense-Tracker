@@ -1,4 +1,4 @@
-# 💰 Financy - Advanced Personal Finance Management System
+# 💰 Expense Tracker - Advanced Personal Finance Management System
 
 > A feature-rich, production-ready React application for personal finance tracking with real-time analytics, budget management, and intelligent expense categorization.
 
@@ -11,7 +11,7 @@
 
 ## 🎯 Overview
 
-Financy is a sophisticated personal finance management application that goes beyond basic CRUD operations. It features real-time data synchronization, intelligent category normalization, advanced analytics, and a polished user experience—demonstrating modern full-stack development practices.
+Expense Tracker is a personal finance management application that goes beyond basic CRUD operations. It features real-time data synchronization, intelligent category normalization, advanced analytics, and a polished user experience—demonstrating modern full-stack development practices.
 
 **Key Differentiator:** Built with architectural best practices including state management optimization, responsive design, accessibility compliance, and comprehensive error handling.
 
@@ -39,7 +39,7 @@ Financy is a sophisticated personal finance management application that goes bey
 
 ### 📱 User Experience
 - **Responsive Design** - Optimized for desktop, tablet, and mobile devices
-- **Dark/Light Theme Toggle** - System preference detection with manual override
+- **Warm Dark/Light Themes** - Terracotta and amber accents with warm neutral backgrounds; follows system preference with a manual toggle
 - **Mobile-First Navigation** - Collapsible sidebar with gesture support
 - **Accessible UI** - WCAG 2.1 compliance with proper ARIA labels
 
@@ -58,7 +58,7 @@ Financy is a sophisticated personal finance management application that goes bey
 |-------|-----------|---------|
 | **UI Framework** | React 18 | Component-based architecture with hooks |
 | **Build Tool** | Vite | Lightning-fast HMR and optimized bundling |
-| **Styling** | Tailwind CSS | Utility-first design with custom theme |
+| **Styling** | Tailwind CSS | Utility-first design with a warm terracotta, amber, and earthy-neutral palette |
 | **Charts** | Chart.js + react-chartjs-2 | 2D data visualization |
 | **Icons** | Lucide React | Lightweight, consistent icon library |
 | **Animations** | CSS Transitions | Smooth, performant animations |
@@ -102,6 +102,12 @@ onSnapshot(query, (snapshot) => {
 - **Reusable Components**: TransactionTable, StatsCard, Toast
 - **Custom Hooks**: useAuth for authentication logic
 
+#### 5. **Warm Theme System**
+- Tailwind color tokens provide coordinated warm colors across the app
+- Light mode uses cream backgrounds and terracotta accents; dark mode uses deep brown surfaces with amber highlights
+- The theme toggle supports saved user preference and system color preference
+- Shared chart colors use the same warm palette as the interface
+
 ---
 
 ## 🚀 Getting Started
@@ -116,7 +122,7 @@ onSnapshot(query, (snapshot) => {
 1. **Clone repository**
 ```bash
 git clone <repository-url>
-cd financy-react
+cd Expense-Tracker
 ```
 
 2. **Install dependencies**
@@ -150,7 +156,7 @@ npm run preview      # Test production build locally
 ## 📁 Project Structure
 
 ```
-financy-react/
+Expense-Tracker/
 ├── public/                        # Static assets
 ├── src/
 │   ├── components/
@@ -180,7 +186,7 @@ financy-react/
 │   └── index.css                  # Global styles
 ├── index.html                     # HTML template
 ├── package.json                   # Dependencies
-├── tailwind.config.js             # Tailwind configuration
+├── tailwind.config.js             # Tailwind configuration and warm color palette
 ├── postcss.config.js              # PostCSS configuration
 └── vite.config.js                 # Vite configuration
 ```
